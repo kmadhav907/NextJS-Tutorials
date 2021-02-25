@@ -1,8 +1,15 @@
+import Head from 'next/head'
 const Ninja = () => {
-    return ( 
-    <div>
+  return (
+    <>
+      <Head>
+        <title>Ninja List</title>
+      </Head>
+      <div>
         <h1> All Ninjas </h1>
-    </div> );
+      </div>
+    </>
+  )
 }
- 
-export default Ninja;
+
+export default Ninja

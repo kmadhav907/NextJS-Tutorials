@@ -1,10 +1,14 @@
 import { loadGetInitialProps } from 'next/dist/next-server/lib/utils'
 import Link from 'next/link'
+import Image from 'next/image'
 const Navbar = () => {
   return (
     <nav>
       <div className='logo'>
-        <h1> Ninjas </h1>
+        <h1>
+          {' '}
+          <Image src='/logo.png' width='50' height='46'></Image> Ninjas
+        </h1>
       </div>
       <Link href='/'>
         <a>Home</a>

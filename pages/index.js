@@ -1,10 +1,14 @@
 import styles from '../styles/Home.module.css'
-
+import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>NinjaList Home</title>
+        <meta name='keywords' content='ninjas'></meta>
+      </Head>
       <div>
         <h1 className={styles.title}>HomePage</h1>
         <p className={styles.text}>
